@@ -59,12 +59,9 @@ public class Operator extends Thread {
 
             }
         }
-        try {
-            Thread.sleep(4000);
-            System.out.println("Оператор закончил работу");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+        System.out.println("Оператор закончил работу");
+
 
     }
 }
